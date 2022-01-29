@@ -1,0 +1,150 @@
+/* --- estilos del body--- */
+
+body{
+  font-family: 'Amatic SC';
+  background-color: rgb(224, 255, 255);
+height: auto;
+max-width: 100%;
+  color: rgb(95, 158, 160); 
+  padding: 30px;
+}
+
+/* --- receteo del css --- */
+
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* --- estilos generales --- */
+h4{
+  font-size: 30px;
+}
+
+
+h1{
+  font-size: 100px;
+  text-align: center;
+  color: #fff;
+  padding-top: 20px;
+  text-shadow: 6px 6px rgb(240, 128, 128);
+}
+
+a:visited{
+  color: rgb(72, 209, 204);
+  cursor: grabbing;
+}
+
+p{
+  font-size: 25px;
+}
+
+/* --- estilos del titulo --- */
+
+.skincare{
+  background-image: url("https://img.vixdata.io/pd/jpg-large/es/sites/default/files/p/productos-basicos-para-tu-rutina-de-skincare.jpg");
+  width: 100%;
+  height: 400px; 
+  margin-bottom: 10px; 
+  border-radius: 10px;
+}
+
+/* --- estilos listas --- */
+ol{
+  margin-top: 20px;
+
+}
+
+
+li{
+  font-size: 30px;
+  color: #607d8b;
+}
+
+.contenedorlista{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+  padding: 30px;
+ }
+
+ .caja{
+  background-color: #fba8aa;
+  padding: 20px 40px 20px 40px;
+}
+
+.contenedorlista h2{
+  color: #fff;
+  text-shadow: 1px 1px rgb(240, 128, 128);
+  font-size: 40px;
+}
+
+/* --- estilos del contenido --- */
+
+.contenedortips{
+  border: 5px solid rgb(171, 228, 222);
+  display: flex;  
+  width: 100%;
+  justify-content: space-around;
+  padding-top: 2% ;
+  padding-bottom: 2%;
+  transition: transform ease-in 1000ms;
+  margin-bottom: 30px;
+}
+
+.contenedortips:hover{
+  background-color: #fba8aa;
+  color: #fff;
+  transform:scale(1.1);
+}
+
+
+.contenedortips img{
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+}
+
+.contenedortips div {
+  width: 70%;
+}
+
+.contenedortips h4{
+margin-bottom: 10px;
+}
+
+/* --- estilos de la tabla --- */
+
+table{
+  border: 5px solid rgb(171, 228, 222);
+  width: 100%;
+  height: 144px;
+  transition: transform ease-in 1000ms;
+  
+}
+table:hover{
+  transform:scale(1.1);
+  background: url("https://www.zarla.com/images/Zarla-skin-care-logos-3456x5184-2021022.jpeg?crop=21:16,smart&width=420&dpr=2");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+th{
+  width: 50%;
+  font-size: 70px;
+}
+
+td{
+  text-align: center;
+  font-size: 50px;
+}
+
+/* --- estilos conclusion --- */
+.contenedorconclusion{
+  color:#b85566;
+  font-family: Cinzel, serif;
+  margin-top: 200px;
+}
